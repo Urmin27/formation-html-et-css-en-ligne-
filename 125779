@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMATION HTML ET CSS COMPLET</title>
+    <style>
+        /* Style global */
+        body {
+          background-image: url(mage0.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            color: red;
+        }
+        h2
+        {color:greenyellow ;}
+
+        h4,h3
+        {color: aqua;}
+        header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #0056b3;
+        }
+
+        nav button.active {
+            background-color: #0056b3;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        section.active {
+            display: block;
+        }
+
+        /* Bouton style pour les contacts */
+        .contact-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: rgb(162, 64, 64);
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .contact-button:hover {
+            background-color: #218838;
+        }
+        <button onclick: {color:read-only; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="btn-accueil" class="active" onclick="showSection('accueil', this)">ACCUEIL</button>
+            <button id="btn-formation" onclick="showSection('formation', this)">FORMATION</button>
+            <button id="btn-service" onclick="showSection('service', this)">SERVICE CLIENT</button>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil" class="active">
+            
+            <img src="image1.jpg" alt="minara tsara raha te hahay"width="800" height="800">
+            <h1>FANAZAVANA FENO</h1><br>
+            <p> 
+                Fampiofanana HTML sy CSS: Fomba Tsara indrindra Hianarana ny Fampivelarana Web!<br>
+                
+                Manana Tanjona Hianatra HTML sy CSS? Ity ny Toerana tsara ho anao!<br>
+                
+                Raha mitady hanomboka amin'ny fampivelarana web ianao, na te hanampy fahaiza-manao vaovao amin'ny asanao, ny HTML sy CSS dia fahaiza-manao fototra tsy maintsy ho hitanao. **Amin'ny alinay no toerana iray azo antoka tsara amin'ny fampianarana izany**, miaraka amin'ny traikefa an-taonany maro sy mpampianatra manam-pahaizana, manampy anao hahazo fahaiza-manao tena ilaina!<br>
+        
+                
+                
+                <h2>Tombontsoa Mahazo Rehefa Mahay HTML sy CSS</h2>
+
+                
+                <h4>1. Fampivoarana Asa</h4><br>
+                
+                Raha manana fahalalana HTML sy CSS ianao, dia manana tombony amin'ny asa amin'ny sehatry ny web development. Ireo fahaiza-manao ireo dia anisan'ny tena ilaina amin'ny asa rehetra mifandraika amin'ny fananganana tranonkala, ny fanamboarana interface ho an'ny mpampiasa, ary ny famolavolana pejy web tsara tarehy.<br>
+                   
+                <h4>2. Fampitomboana ny Fahalalana</h4><br>
+                
+                HTML sy CSS dia fahafahana lehibe amin'ny fananganana tranonkala sy web applications. Rehefa mahay ianao dia afaka manamboatra pejy web araka ny tianao, miasa amin'ny rafitra fanao amin'ny indostria, ary manamboatra web designs mahafinaritra.<br>
+                
+                <h4>3. Fahafahana Mahazo Vola</h4><br>
+                
+                Raha manana fahaiza-manao HTML sy CSS ianao, dia afaka manao tetikasa amin'ny maha-freelancer na ao amin'ny orinasa. Maro ny orinasa sy startup mitady olona manana fahaiza-manao amin'ny HTML sy CSS hanampy azy ireo hanangana sy hanatsara ny tranonkala.<br>
+                
+                <h4>4. Azo Amboarina Ho An'ny Tanjona Manokana</h4> <br>
+                
+                CSS dia manampy anao hamorona web designs manokana, hahafahanao mandrafitra tranonkala araka ny fomba fanao (styles) sy ny endrika tianao, manampy amin'ny fanatsarana ny traikefa ho an'ny mpampiasa.<br>
+                
+                
+                
+                Ato Alinay: Toerana Azo Antoka ho an'ny Fampiofanana HTML sy CSS<br>
+                Ato aminay, manolotra fampiofanana HTML sy CSS, izay manampy anao hanomboka amin'ny dingana voalohany ka hatramin'ny ambaratonga ambony. Ity fampiofanana ity dia natao ho an'ny rehetra, na ianao dia vao manomboka na efa manana traikefa. <br><br>
+                
+                <img src="image2.jpg" alt=""width="800" height="800">
+                <h3>Fampiofanana Manokana sy Mahomby</h3><br>
+
+                Mpampianatra manampahaizana: Ny mpampianatray dia manam-pahaizana sy mahay amin'ny sehatry ny web development.<br><br>
+                Fampianarana amin'ny fomba tsotra sy mahafinaritra: Ny fanazavana dia mazava, mora takarina ary manampy anao amin'ny fanatanterahana tetikasa manokana.<br><br>
+                Tetikasa tena izy: Hanao tetikasa sy fanazaran-tena amin'ny tena fiainana ianao, izay hanampy anao hanatanteraka traikefa marina amin'ny HTML sy CSS.<br><br>
+                
+                
+                <h2>Antsipiriany Mikasika ny HTML sy CSS</h2><br>
+
+                HTML (HyperText Markup Language)<br>
+
+                Inona izany HTML?: HTML dia fiteny fampiasaina amin'ny fanoratra ny rafitra sy ny votoatin'ny pejy web. Izy io no fiteny fototra amin'ny fananganana tranonkala.<br>
+                Rafitra HTML: HTML dia ahitana tag sy elements (toy ny paragrahe ,titre... ) izay mamaritra ny fomba hanamboarana pejy web.
+                Fomba fanao: HTML dia mamaritra ny votoatiny sy struktura (structure) amin'ny pejy web, fa tsy amin'ny endrika sy ny fomba fijery. Izy io dia ampiasaina amin'ny fametrahana sary, rohy, tabilao, endri-tsoratra, sy zavatra hafa.<br>
+                
+                <img src="image3.jpg" alt=""width="800" height="800">
+                <h3>CSS (Cascading Style Sheets)</h3><br>
+
+                Inona izany CSS?: CSS dia fiteny ampiasaina amin'ny fanamboarana ny endriky ny pejy web. Izy io no mitantana ny loko, ny layout, ny font, ny sizes, ary ny fomba style hafa amin'ny pejy.<br>
+                Fampiharana CSS: CSS dia ampiasaina amin'ny fanatsarana ny votoaty HTML amin'ny alalan'ny fanovàna ny endrika sy fomba (style) amin'ny pejy. Mety ho internal (ao amin'ny pejy HTML) na external (ao amin'ny fisie manokana) izy io.<br>
+                Fanamboarana Responsive Design: CSS dia ampiasaina amin'ny fanamboarana tranonkala responsive (mifanaraka amin'ny haben'ny efijery) amin'ny alalan'ny media queries sy flexbox.<br>
+                
+                
+                
+                <h3>Fanombohana Fampiofanana</h3><br>
+
+                Fe-potoana: 6 herinandro<br>
+
+         Azonao atao miantso anay mivantana <br>
+         
+         Laharana: +261323911654<br>
+        
+                 .</p>
+        </section>
+
+        <section id="formation">
+            <h1>FORMATION</h1>
+
+            Miarahaba anao, misokatra manomboka androany ny ny fampianarana HTML SY CSS eto aminay , izay afahanao manovo fahalalana feno momba ny html sy css . Mety ho an'ny olona mbola debutant izy ity, satria misy fampianarana natao ho amin'ny teny malagasy mora azo ny fampianarana.
+            <h3>inona moa ny zavatra atao ato?</h3> <br>
+
+            Ho anao izay mbola tsy mahay , ny zavatra atao dia ny fanamboarana site web amin'ny alalan'ny HTML SY CSS, izany hoe mianatra manamboatra page web na koa site d'internet no tena tanjona amin'ny fampianarana ato.
+
+            <h3>tena azahoana vola ve ny fahaizana HTML SY CSS?</h3><br>
+
+            Eny, misy fomba maro no hazahoana vola rehefa tena mahay mamorona site web ianao , ohatra: afaka mahita asa betsaka ao amin'ny frellance ianao , ary afaka manangana projet ho anao manokana ianao , ohatra resaka commerce sns... mbola maro ny fidiram-bola ho azonao raha tena mahafehy azy tsara ianao.
+
+            izahay dia afaka mampianatra anao amin'ny sarany tena mirary tokoa raha oharina amin'ny olona afa. Misy fampianarana amin'ny teny malagasy, raha hijery makasika ny fampianarana amin'ny teny malagasy ianao dia tsindrio bouton misoratra hoe: EN Malgache? eto ambany . Raha te hijery ny fampianarana amin'ny fiteny frantsay ianao dia tsindrio ny bouton en français eto ambany.
+            
+            <h3>Te hanomboka izao ve ianao ?</h3>
+
+            Raha te hanomnoka izao ianao dia mila manefa droit aty aminay , tsindrio fotsiny ny bouton Hanefa droit eto ambany raha te hanomboka ianao , ary araho tsara ny toromarika ao . Mankasitraka!
+            <img src="image2.jpg" alt=""width="800" height="800">
+            <p> FITENY INONA NY TIANAO IANARANA  AZY ?</p>
+            <ul>
+                <button onclick="alert('salama tompoko, ny fampianarana aminy teny malagasy dia natao mba ho pratique direct izany ; izany hoe : tsy misy lesona afa-tsy ny pdf kely izay afahanao mamanatatra zavatra fohy ihany. Ny fampiofanana dia natao ho 70 andro. Ny droit de formtion aminy teny malagasy dia natao ho 15000ar. Tsy misy ecolage intsony fa ny droit ihany no efaina dia vitaRaha maniry te hisoratra anarana ianao dia mila manefa droit eto aminy aminy page : tsindrio ny bouton HANEFA DROIT eto ambany ')">En Malgache</button><br><br>
+                <button onclick="alert('Ny fampianarana aminy fiteny frantsay dia natao ho fampianarana feno izany , misy fanazavana aminy video miampy pratique , mora ianarana tsara , tsy sarotra ny fanazavana azy aminy frantsay , ao ihany koa misy lesona feno fampianarana feno.NY Mpampianatra dia efa proffesionnelle. Ny fampiofanana dia natao ho 71 andro . Ny droit dia 20000ar, tsy misy ecolage fa natao ho droit ihany no efaianao . Raha maniry te hisoratra anarana ianao dia mila manefa droit eto aminy aminy page : tsindrio ny bouton HANEFA DROIT eto ambany ')">En Français</button><br><br>
+
+            <p>TSINDRIO ITY BOKOITRA ITY RAHA HANEFA DROIT</p> <br>
+                <button onclick="alert ('Salama tompoko, ireto ny laharana andefasanao ilay vola: 0323911654, 0384557584, 0333635111.   Rehefa lasa ny vola dia contacter ny sevice client , ary alefaso ao aminy ny laharana nandefa ilay vola na koa ny capture. Misaotra tompoko')">HANEFA DROIT</button><br><br>
+
+            </ul>
+            <ul>
+            </section>
+
+        <section id="service">
+            <h1>SERVICE CLIENT</h1>
+            <img src="image3.jpg" alt=""width="800" height="800">
+            <p>Contactez-nous via :</p>
+            <a href="https://wa.me/+261323911654" class="contact-button" target="_blank">WhatsApp</a>
+            <a href="https://www.Facebook.com/profil.php?id=61570283281458" class="contact-button" target="_blank">Facebook</a>
+        </section>
+    </main>
+    <script>
+        function showSection(sectionId, button) {
+            // Masquer toutes les sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+
+            // Activer la section sélectionnée
+            document.getElementById(sectionId).classList.add('active');
+
+            // Réinitialiser tous les boutons
+            const buttons = document.querySelectorAll('nav button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            // Activer le bouton sélectionné
+            button.classList.add('active');
+
+        
+
+        }
+    </script>
+    
+</body>
+</html>
